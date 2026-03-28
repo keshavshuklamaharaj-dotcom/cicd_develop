@@ -223,6 +223,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
+    box-shadow: none;
 }
 
 .about-image img {
@@ -233,7 +235,9 @@ body {
     object-fit: cover;
     box-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
     border: 3px solid rgba(255, 255, 255, 0.8);
+    background: none;
     background-color: transparent;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.14));
 }
 
 .about-content::before {
